@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Global Style */
+
+.btn-primary {
+    background: #F15B22;
+    height: 64px;
+    padding: 0 28px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background: #f15d22e4;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+/* Header Style */
+
+.header-banner {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 215px;
+    padding-bottom: 170px;
+}
+
+.header-slider {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.header-slider h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+}
+
+.header-slider p {
+    color: #444343;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* Main Style */
+
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+section {
+    padding-top: 130px;
+}
+
+/* About us style */
+
+.about-us {
+    display: flex;
+    align-items: center;
+    max-width: 1070px;
+    gap: 105px;
+}
+
+.about-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.about-text p {
+    color: #444343;
+    margin: 25px 0px 20px 0px;
+}
+
+.about-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-list ul li {
+    color: #444343;
+    line-height: 30px;
+}
+
+/* My plan style */
+
+.my-plan h2 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.plan-items {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-single-item h3 {
+    margin: 25px 0px 20px 0px;
+}
+
+.plan-single-item h4 {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/* our-services style */
+
+.our-blog {
+    margin-bottom: 130px;
+    text-align: left;
+}
+
+.our-blog h2 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.blog-items {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.single-blog h3 {
+    margin: 20px 0 20px 0;
+}
+
+/* Call us style */
+
+.call-us {
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    padding: 60px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+}
+
+.call-us h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.call-us button {
+    background-color: #fff;
+    height: 64px;
+    padding: 0 28px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.call-us button a {
+    color: #F15B22;
+}
+
+/* Footer Style */
+
+footer {
+    background: #151414;
+    color: #fff;
+    margin-top: 130px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-text h2 {
+    color: #fff;
+}
+
+.info-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-text p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.social-icon img {
+    margin-right: 10px;
+}
+
+.subscribe h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+.subscribe input{
+    height: 64px;
+    background-color: transparent; 
+    border: 1px solid #fff;
+    border-radius: 8px; 
+    color: #F3F3F3;
+    width: 325px;
+}
+.subscribe input::placeholder{
+    color: #F3F3F3;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 10px;
+}
+.subscribe input[type=submit]{
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border: 1px solid #F15B22;
+    background-color: #fff;
+    margin-top: 15px;
+    color: #F15B22;
+    width: 170px;
+}
