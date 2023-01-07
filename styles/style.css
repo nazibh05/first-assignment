@@ -28,7 +28,10 @@ button a {
     font-weight: 600;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: 700;
     color: #151414;
     text-transform: capitalize;
@@ -51,7 +54,7 @@ h3 {
 
 h4 {
     font-size: 25px;
-    line-height: 30px;   
+    line-height: 30px;
 }
 
 /* Header Style */
@@ -153,7 +156,7 @@ section {
     line-height: 29px;
 }
 
-/* our-services style */
+/* our-blog style */
 
 .our-blog {
     margin-bottom: 130px;
@@ -187,8 +190,8 @@ section {
     padding: 60px;
     border-radius: 8px;
     background-image:
-    linear-gradient(to bottom, rgba(235, 105, 23, 0.52), rgba(206, 150, 66, 0.73)),
-    url('../images/watch.png');
+        linear-gradient(to bottom, rgba(235, 105, 23, 0.52), rgba(206, 150, 66, 0.73)),
+        url('../images/watch.png');
     /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
 }
 
@@ -256,21 +259,24 @@ footer {
     line-height: 29px;
     margin-bottom: 20px;
 }
-.subscribe input{
+
+.subscribe input {
     height: 64px;
-    background-color: transparent; 
+    background-color: transparent;
     border: 1px solid #fff;
-    border-radius: 8px; 
+    border-radius: 8px;
     color: #F3F3F3;
     width: 325px;
 }
-.subscribe input::placeholder{
+
+.subscribe input::placeholder {
     color: #F3F3F3;
     font-size: 18px;
     line-height: 21px;
     padding-left: 10px;
 }
-.subscribe input[type=submit]{
+
+.subscribe input[type=submit] {
     height: 64px;
     font-weight: 600;
     font-size: 20px;
