@@ -13,6 +13,7 @@
     padding: 0 28px;
     border: 0;
     border-radius: 5px;
+    text-transform: capitalize;
 }
 
 .btn-primary:hover {
@@ -27,29 +28,28 @@ button a {
     font-weight: 600;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-weight: 700;
+    color: #151414;
+    text-transform: capitalize;
+}
+
+h1 {
     font-size: 65px;
     line-height: 76px;
-    color: #151414;
 }
 
 h2 {
-    font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    color: #151414;
 }
 
 h3 {
-    font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    color: #151414;
 }
 
 h4 {
-    font-weight: 700;
     font-size: 25px;
     line-height: 30px;   
 }
